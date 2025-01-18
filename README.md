@@ -5,7 +5,7 @@ This repository implements an image classification project using a pretrained Co
 
 ## Dataset
 
-The dataset used in this project is the [Stanford Cars Dataset](https://www.tensorflow.org/datasets/catalog/cars196). It includes:
+The dataset used in this project is the Stanford Cars Dataset. It includes:
 - **Training Images**: High-resolution car images for model training.
 - **Validation Images**: A split of the training data for model validation.
 - **Testing Images**: Separate images for final evaluation.
@@ -37,6 +37,6 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ## Acknowledgments
 
-- Dataset: [Stanford Cars Dataset](http://ai.stanford.edu/~jkrause/cars/car_dataset.html)
+- Dataset: [Stanford Cars Dataset](https://www.tensorflow.org/datasets/catalog/cars196)
 - Pretrained Model: [PyTorch Model Zoo](https://pytorch.org/vision/stable/models.html)
 ```
