@@ -1,2 +1,42 @@
-# Image Classification (Classifying Images of Cars)
- This repository contains a Jupyter notebook for a Convolutional Neural Network (CNN) implemented in PyTorch to classify images of cars. The model was trained on the Stanford Cars dataset, achieving a validation accuracy of 0.7121, which is higher than the training accuracy of 0.6052. The notebook includes sections for data loading and preprocessing, model creation and training, and evaluation on the test set. The notebook can be further fine-tuned for better results.
+# Car Classification with Pretrained VGG16
+
+This repository implements an image classification project using a pretrained Convolutional Neural Network (VGG16) to classify car images from the Stanford Cars dataset. The task involves training, validating and testing a supervised machine learning model, with visualizations of accuracy and loss metrics.
+
+
+## Dataset
+
+The dataset used in this project is the [Stanford Cars Dataset](https://www.tensorflow.org/datasets/catalog/cars196). It includes:
+- **Training Images**: High-resolution car images for model training.
+- **Validation Images**: A split of the training data for model validation.
+- **Testing Images**: Separate images for final evaluation.
+
+
+## Model
+
+The model is based on a pretrained **VGG16** architecture:
+- **Pretrained on**: ImageNet dataset.
+- **Modification**: The final fully connected layer is replaced to classify car images into 196 classes.
+
+
+## Results
+
+### Training and validation metrics
+
+The model was trained for 25 epochs, and the training process was evaluated based on accuracy and loss. The following plots illustrate the results:
+
+
+- Loss: The training and validation loss decreased steadily, indicating effective learning during training.
+- Accuracy: The accuracy improved significantly for both training and validation, achieving a validation accuracy of approximately 70%.
+
+<img src="assets/car_classification.png" alt="Car Classification" width="400">
+
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+## Acknowledgments
+
+- Dataset: [Stanford Cars Dataset](http://ai.stanford.edu/~jkrause/cars/car_dataset.html)
+- Pretrained Model: [PyTorch Model Zoo](https://pytorch.org/vision/stable/models.html)
+```
