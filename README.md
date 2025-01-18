@@ -28,7 +28,7 @@ The model was trained for 25 epochs, and the training process was evaluated base
 - Loss: The training and validation loss decreased steadily, indicating effective learning during training.
 - Accuracy: The accuracy improved significantly for both training and validation, achieving a validation accuracy of approximately 70%.
 
-<img src="assets/car_classification.png" alt="Car Classification" width="400">
+<img src="assets/car_classification.png" alt="Car Classification">
 
 
 ## License
